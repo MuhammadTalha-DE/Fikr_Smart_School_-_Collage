@@ -1,0 +1,80 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Build output
+dist/
+build/
+out/
+coverage/
+.nyc_output/
+*.lcov
+*.tsbuildinfo
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!*.env.example
+
+# Logs and runtime data
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Local uploads and generated assets
+uploads/
+backend/uploads/
+frontend/uploads/
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ML and notebook checkpoints
+.ipynb_checkpoints/
+
+# Archives and backups
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+
+# Editor and local tooling
+.vscode/
+.idea/
+.history/
+*.code-workspace
+*.swp
+*.swo
+.agents/
+.codex/
+.kombai/
+.qodo/
+
+# OS files
+.DS_Store
+.DS_Store?
+Thumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+*.tmp
+*~
+backend/m.md

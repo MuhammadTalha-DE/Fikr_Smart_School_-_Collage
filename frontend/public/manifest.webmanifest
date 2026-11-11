@@ -1,0 +1,46 @@
+{
+  "name": "Fikr Smart School System",
+  "short_name": "Fikr School",
+  "description": "School management portal for attendance, finance, documents, timetable, chat, and reports.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#183647",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "url": "/",
+      "description": "Open your school dashboard"
+    },
+    {
+      "name": "Messages",
+      "short_name": "Messages",
+      "url": "/chat",
+      "description": "Open school messages"
+    },
+    {
+      "name": "Attendance",
+      "short_name": "Attendance",
+      "url": "/attendance",
+      "description": "Open attendance"
+    }
+  ]
+}

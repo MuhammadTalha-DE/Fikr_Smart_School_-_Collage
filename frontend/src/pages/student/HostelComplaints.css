@@ -1,0 +1,22 @@
+/* Hostel Complaints – custom keyframes & 3D helpers */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.animate-float {
+  animation: float ease-in-out infinite;
+}
+
+/* Optional: apply perspective on a container if needed */
+.perspective-3d {
+  perspective: 1000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
